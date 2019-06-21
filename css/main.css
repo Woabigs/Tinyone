@@ -1,0 +1,199 @@
+/* specification */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+a {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.features__content{
+    margin-bottom: 120px;
+}
+
+.features{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.features__title{
+    font-size: 32px;
+}
+
+.features__paragraph{
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.header {
+    background: #fcdb00;
+    color: #000000;
+    padding-top: 58px;
+    padding-bottom: 35px;
+}
+
+.menu {}
+
+.menu__item {}
+
+.menu__item a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+/* *{
+    border: 1px solid orange;
+} */
+
+.offer {
+    margin-top: 117px;
+}
+
+.offer__title {
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+}
+
+.offer__paragraph {
+    font-size: 16px;
+    margin-top: 15px;
+    width: 400px;
+}
+
+.icon__item {
+    margin-right: 30px;
+}
+
+.icon__item a {
+    color: #000;
+    font-size: 42px;
+}
+
+.icon__item a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+.iPad{
+    display: block;
+    margin: 60px auto;
+}
+
+/* second screen */
+
+.our_feautures{
+    padding-bottom: 50px;
+}
+
+.features__content p{
+    color: #898989;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+
+
+.mobile__phone__icon{
+    font-size: 50px;
+    margin-top: -15px;
+    margin-right: 33px;
+}
+
+
+/* third screen */
+
+.touch__content{
+    background: #010101;
+}
+
+.yellow{
+    color: #fcdb00;
+}
+
+.touch__paragraph{
+    color: #717171;
+}
+
+.touch__form{
+    margin-bottom: 53px;
+}
+
+.form__input{
+    width: 580px;
+    padding: 13px 0px 13px 25px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    color: #717171;
+    background: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.form__btn{
+    background: #fcdb00;
+    border: 0;
+    border-radius: 5px;
+    padding: 11px 28px;
+    margin-left: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+/* footer */
+
+.footer{
+    background: #010101;
+}
+
+.credits{
+    margin-bottom: 80px;
+}
+
+.credits__paragraph{
+    color: #fff;
+    font-size: 16px;
+    width: 185px;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
